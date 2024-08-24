@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Declaração da função troca 
+// Declaração da função troca (não retorna nada)
 void troca (int x, int y){
 	int aux;
 	

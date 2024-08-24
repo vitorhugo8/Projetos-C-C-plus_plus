@@ -8,7 +8,7 @@ int main() {
     // Primeiro diálogo com a stalker girl
     printf("*Uma garota colegial se aproxima de voce*\n");
     printf("O-oi, eu estudo com voce na classe de matematica. Qual o seu nome?: ");
-    int n = scanf("%9s", nome);
+    int n = scanf("%s", nome);
     
     // Verifica se o nome foi lido corretamente e chama para o encontro
     if (n == 1) {
