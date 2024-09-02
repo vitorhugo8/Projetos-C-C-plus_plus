@@ -1,15 +1,15 @@
-# Project: registro-struct
+# Project: recursividade-fibonacci
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = ../registro-struct.o
-LINKOBJ  = ../registro-struct.o
+OBJ      = ../../ArquivosFonte/fibonacci-recursividade.o
+LINKOBJ  = ../../ArquivosFonte/fibonacci-recursividade.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = registro-struct.exe
+BIN      = recursividade-fibonacci.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-../registro-struct.o: ../registro-struct.c
-	$(CC) -c ../registro-struct.c -o ../registro-struct.o $(CFLAGS)
+../../ArquivosFonte/fibonacci-recursividade.o: ../../ArquivosFonte/fibonacci-recursividade.c
+	$(CC) -c ../../ArquivosFonte/fibonacci-recursividade.c -o ../../ArquivosFonte/fibonacci-recursividade.o $(CFLAGS)
